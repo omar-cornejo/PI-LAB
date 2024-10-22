@@ -37,7 +37,7 @@
 
  **Establece contraseña Telnet SSH:** password <password>
 
- **Salir modo actual:** exit
+ **Salir del modo actual:** exit
 
  **Asigna la dirección IP y la máscara de subred:** ip address <dirección IP> <netmask>
 
@@ -55,13 +55,13 @@
 
  **Configura una interfaz en modo acceso:** switchport access vlan <vlan-id>
 
- **MMstrar configuración interfaz específica:** show running-config interface <interface-id>
+ **Mostrar configuración interfaz específica:** show running-config interface <interface-id>
 
  **Mostrar la tabla de direcciones MAC:** show mac-address-table
 
  **Activar STP en VLAN:** spanning-tree vlan <vlan-id>
 
- **Configurar costo camino al (Root Bridge)e:** spanning-tree vlan <vlan-id> cost <cost>
+ **Configurar costo camino al (Root Bridge):** spanning-tree vlan <vlan-id> cost <cost>
  
  **Establecer prioridad del puerto para VLAN específica:** spanning-tree <vlan vlan-id> port-priority priority
 
