@@ -25,46 +25,44 @@
 
 ### Configurar router
 
-**:** enable
+**Cambiar a modo privilegiado:** enable
 
-**:** configure terminal
+**Cambiar a modo configuración:** configure terminal
 
-**:** interface <interface>
+**Seleccionar interfaz:** interface <interface>
+
+ **Establecer contraseña para modo privilegiado:** enable password <password>
+
+ **Esableceer conexiones virtuales:** line vty <min> <max>
+
+ **Establece contraseña Telnet SSH:** password <password>
+
+ **Salir modo actual:** exit
+
+ **Asigna la dirección IP y la máscara de subred:** ip address <dirección IP> <netmask>
+
+ **Habilita la interfaz (si está deshabilitada):** no shutdown
+
+ **Resumen estado interfaces de red:** show ip interface brief
+
+ **Creación VLAN:** vlan <vlan-id>
+
+ **Asignar un nombre a la VLAN:** name <name>
  
- **:** enable password cisco
+ **Mostrar información VLAN:** show vlan <vland id>
 
- **:** line vty 0 4
+ **Configurar una interfaz en modo trunk:** switchport mode trunk
 
- **:** password cisco
+ **Configura una interfaz en modo acceso:** switchport access vlan <vlan-id>
 
- **:** exit
+ **MMstrar configuración interfaz específica:** show running-config interface <interface-id>
 
- **:** ip addres @ip mask
+ **Mostrar la tabla de direcciones MAC:** show mac-address-table
 
- **:** no shutdown
+ **Activar STP en VLAN:** spanning-tree vlan <vlan-id>
 
- **:** show ip interface brief
-
- **:** enable
-
- **:** vlan vlan-id
-
- **:** name name
+ **Configurar costo camino al (Root Bridge)e:** spanning-tree vlan <vlan-id> cost <cost>
  
- **:** show vlan id 
+ **Establecer prioridad del puerto para VLAN específica:** spanning-tree <vlan vlan-id> port-priority priority
 
- **:** switchport mode trunk
-
- **:** switchport acces vlan
-
- **:** show running-config <interface>
-
- **:** show mac-address-table
-
- **:** spanning-tree vlan <vlan-id>
-
- **:** spanning-tree <vlan vlan-id> cost cost
- 
- **:** spanning-tree <vlan vlan-id> port-priority priority
-
- **:** name name
+ **Muestra estado STP VLAN especificada.:** show spanning-tree vlan <vlan-id>
